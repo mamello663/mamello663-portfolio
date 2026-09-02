@@ -1,4 +1,4 @@
-/* styles.css — minimalistic brown & black palette */
+/* styles.css — minimalistic black & brown palette (updated with profile image styles) */
 :root{
   --bg:#000000;
   --muted:#9CA3AF;
@@ -24,6 +24,7 @@ html,body{margin:0;padding:0;font-family:Inter,ui-sans-serif,system-ui,-apple-sy
 .btn{display:inline-block;background:var(--accent);color:white;padding:.6rem 1rem;border-radius:8px;text-decoration:none}
 .btn-outline{border:1px solid rgba(255,255,255,0.03);background:transparent;margin-left:.6rem;color:var(--muted)}
 .avatar{display:flex;align-items:center;justify-content:center}
+.profile-img{width:160px;height:160px;border-radius:50%;object-fit:cover;display:block}
 .section{padding:2.4rem 0}
 .section h2{color:#f8f6f2;margin-bottom:1rem}
 .bg-light{background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent)}
