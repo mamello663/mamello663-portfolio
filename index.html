@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mamello — Portfolio</title>
+  <meta name="description" content="Mamello's professional portfolio — software projects, skills, education, and contact.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Mamello</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="nav" class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certs">Certifications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Hi, I'm Mamello</h1>
+          <p class="tagline">Aspiring Software Developer | Building responsive web apps with clean, maintainable code</p>
+          <p>
+            <a class="btn" href="cv.pdf" download>Download CV</a>
+            <a class="btn btn-outline" href="#projects">View Projects</a>
+          </p>
+        </div>
+        <div class="hero-right">
+          <!-- Simple SVG avatar placeholder -->
+          <div class="avatar" aria-hidden="true">
+            <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="160" height="160" rx="20" fill="#3B82F6"/>
+              <circle cx="80" cy="56" r="26" fill="#EFF6FF"/>
+              <rect x="30" y="100" width="100" height="36" rx="8" fill="#EFF6FF"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a computer science student and aspiring software developer focused on building accessible, responsive web
+          applications. I enjoy solving problems, learning new technologies, and working on projects that have real users.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div>
+            <h3>Technical</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript (ES6+)</li>
+              <li>React, Vite</li>
+              <li>TypeScript</li>
+              <li>Node.js, Express</li>
+              <li>Git & GitHub</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>Communication</li>
+              <li>Teamwork</li>
+              <li>Problem solving</li>
+              <li>Time management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+
+          <article class="card">
+            <h3>Project One — Task Tracker</h3>
+            <p>A simple task tracker web app to manage daily tasks, built with vanilla JavaScript and localStorage for persistence.</p>
+            <p class="tech">Tech: HTML • CSS • JavaScript</p>
+            <p class="links"><a href="#" target="_blank" rel="noopener">Live</a> · <a href="#" target="_blank" rel="noopener">Source</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Project Two — Weather Dashboard</h3>
+            <p>Responsive weather dashboard that consumes a public API and shows current weather and 5-day forecast.</p>
+            <p class="tech">Tech: React • Vite • OpenWeather API</p>
+            <p class="links"><a href="#" target="_blank" rel="noopener">Live</a> · <a href="#" target="_blank" rel="noopener">Source</a></p>
+          </article>
+
+          <article class="card">
+            <h3>Project Three — Personal Blog</h3>
+            <p>Static blog template with markdown-driven posts and a simple search UI. Focused on performance and accessibility.</p>
+            <p class="tech">Tech: HTML • CSS • JavaScript</p>
+            <p class="links"><a href="#" target="_blank" rel="noopener">Live</a> · <a href="#" target="_blank" rel="noopener">Source</a></p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section bg-light">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>BSc Computer Science</h4>
+            <p>University Name — 2023 — Present</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certs" class="section">
+      <div class="container">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Example Cert — Issuing Org (2025)</li>
+          <li>FreeCodeCamp Responsive Web Design (2024)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section bg-light">
+      <div class="container">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>Intern — Example Company</h4>
+            <p>June 2025 — Aug 2025</p>
+            <ul>
+              <li>Worked on frontend features using React.</li>
+              <li>Improved performance and accessibility of company dashboard.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/mamello663" target="_blank" rel="noopener">github.com/mamello663</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener">linkedin.com/in/your-profile</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Mamello — Built with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
